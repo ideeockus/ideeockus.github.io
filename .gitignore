@@ -4,3 +4,4 @@ package-lock.json
 references/*
 certificates/*
 node_modules/*
+resources/pics/other/*
