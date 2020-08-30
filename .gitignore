@@ -1,9 +1,0 @@
-colors
-package.json
-package-lock.json
-references/*
-certificates/*
-node_modules/*
-resources/pics/other/*
-html/about_old.html
-html/about_old_new.html
