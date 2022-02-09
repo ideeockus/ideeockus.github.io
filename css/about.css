@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'FiraMono-Medium'; /*a name to be used later*/
+    src: url("../resources/FiraMono-Medium.ttf"); /*URL to font*/
+}
+
+body {
+  font-family: 'FiraMono-Medium', sans-serif;
+}
+
+/* Mobile based style */
+table {
+  width:  100%;
+  border-spacing: 1em;
+  border-collapse: separate;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+#projects_container {
+  display:  flex;
+  flex-direction: column;
+}
+
+.project_div {
+  margin-bottom: 0em;
+}
+
+.project_item {
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 1.2em 1.2em 1.2em;
+}
+
+.project_item img {
+  flex: 1;
+  /*width: 50%;*/
+  max-height: 20em;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/*.project_item img:hover {
+  flex: 1;
+  max-height: 20em;
+  border:  3px solid #7434EB;
+}*/
+
+.project_item div {
+  flex: 1;
+  /*margin: 1.2em;*/
+  /*width: 50%;*/
+}
+
+.project_item div p {
+    padding: 3em;
+}
+
+/*.project_item img {
+  border-radius: 0px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+@media (orientation: portrait) {
+  .project_item img {
+    order: 1;
+  }
+  .project_item div {
+    order: 2;
+  }
+}
+
+@media (orientation:  landscape) {
+  .project_item {
+    flex-direction: row;
+  }
+}
+
+/*!* Larger than tablet screen *!*/
+@media (min-width: 80.0rem) {
+  .project_div {
+    margin-bottom: 3em;
+  }
+}
+
+ /*style="border-radius: 0px; width: 500px; margin-left: auto; margin-right: auto;"*/
