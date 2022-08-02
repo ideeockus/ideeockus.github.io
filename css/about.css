@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'FiraMono-Medium'; /*a name to be used later*/
-    src: url("../resources/FiraMono-Medium.ttf"); /*URL to font*/
-}
-
 body {
-  font-family: 'FiraMono-Medium', sans-serif;
+  font-family: 'OverpassMono-VariableFont_wght', sans-serif;
 }
 
 /* Mobile based style */
